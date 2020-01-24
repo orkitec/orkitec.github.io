@@ -1,0 +1,63 @@
+# Site
+name: "orkitec"
+title: "orkitec"
+description: "Indiegames and stuff"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ""
+google_analytics: 'UA-32556221-1'
+githubpage: 'orkitec/orkitec.github.io'
+mailchimp-list: 'https://orkitec.us4.list-manage.com/subscribe/post?u=2fb782c5c31ac09a3c5d89bca&amp;id=aecf400a60'
+include: ["_pages"]
+permalink: /:categories/:title
+
+# Authors
+authors:
+  steffen:
+    name: Steffen
+    display_name: Steffen
+    gravatar: a67637873ae1c6bf5b943db5d8568328
+    email: info@orkitec.com
+    web: https://orkitec.com
+    twitter: https://twitter.com/orkitec
+    description: "If you liked this post or have any input please leave a comment or message me on twitter."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
