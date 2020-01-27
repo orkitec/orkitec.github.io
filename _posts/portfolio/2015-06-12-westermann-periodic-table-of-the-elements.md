@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Schul PSE"
-author: steffen
 categories: [ portfolio, mbaas-development ]
 image: assets/images/portfolio/mbaas-development/pse-splash.jpg
 ---

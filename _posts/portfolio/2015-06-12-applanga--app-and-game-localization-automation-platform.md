@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Applanga"
-author: steffen
 categories: [ portfolio, mbaas-development ]
 image: assets/images/portfolio/mbaas-development/applanga.png
 ---

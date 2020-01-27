@@ -4,19 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+<link rel="icon" href="/assets/images/logo.png">
 
 <title>{{ page.title }} | {{site.name}}</title>
 
 {% seo %}
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
-<link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
+<link href="/assets/css/main.css" rel="stylesheet">
 
-<link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
-
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.min.js"></script>
 
 </head>
 
@@ -48,8 +44,8 @@ ga('send', 'pageview');
     <div class="container pr-0">
 
     <!-- Begin Logo -->
-    <a class="navbar-brand" href="{{ site.baseurl }}/">
-    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+    <a class="navbar-brand" href="/">
+    <img src="/{{ site.logo }}" alt="{{ site.name }}">
     </a>
     <!-- End Logo -->
 
@@ -68,23 +64,23 @@ ga('send', 'pageview');
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+                <a class="nav-link" href="/">Home</a>
                 </li>
 
-                {% if page.url == "/blog" %}
+                {% if page.url contains "/blog" %}
                 <li class="nav-item active">
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
+                <a class="nav-link" href="/blog">Blog</a>
                 </li>
 
-                {% if page.url == "/portfolio" %}
+                {% if page.url contains "/portfolio" %}
                 <li class="nav-item active">
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/portfolio">Portfolio</a>
+                <a class="nav-link" href="/portfolio">Portfolio</a>
                 </li>
 
                 {% if page.url == "/about" %}
@@ -92,7 +88,7 @@ ga('send', 'pageview');
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                <a class="nav-link" href="/about">About</a>
                 </li>
 
                 {% include search-lunr.html %}
@@ -121,8 +117,8 @@ ga('send', 'pageview');
         {{ site.description }}
     </p>
     <p class="lead"><b>
-        NOTE: This website is currently very much under construction and its just online since I was a bit quick with updating the dns settings. All posts and games contain verty much dummy contewnt and need to be rewritten but it takes me a bit more time then anticipated. If you want to see a bit more about  my past projects please head over to the old version of the site under: <a href="http://old.orkitec.com">http://old.orkitec.com</a>. 
-        You can already subscribe to the newsletter if you wan't to be notified once the page is fully up and running. 
+        NOTE: This website is currently very much under construction and its just online since I was a bit quick with updating the DNS settings. All posts and games contain mostly dummy content and are currently rewritten but it takes me a bit more time then anticipated. If you want to see a bit more about my past projects please head over to the old version of the site under: <a href="http://old.orkitec.com">http://old.orkitec.com</a>. 
+        You can already subscribe to the newsletter if you want to be notified once the page is fully up and running. 
         Thank you - Steffen.</b>
     </p>
 </div>
@@ -138,7 +134,7 @@ ga('send', 'pageview');
 ================================================== -->
 <div class="alertbar">
 	<div class="container text-center">
-		<span><img height=35px src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss an <b>update</b>, subscribe to the newsletter</span>
+		<span><img height=35px src="/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss an <b>update</b>, subscribe to the newsletter</span>
         <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group">
             <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
@@ -153,7 +149,7 @@ ga('send', 'pageview');
 
 <!-- Categories Jumbotron
 ================================================== -->
-<div class="jumbotron fortags">
+<!--<div class="jumbotron fortags">
 	<div class="d-md-flex h-100">
 		<div class="col-md-4 transpdark align-self-center text-center h-100">
             <div class="d-md-flex align-items-center justify-content-center h-100">
@@ -164,17 +160,17 @@ ga('send', 'pageview');
             {% assign categories_list = site.categories %}
             {% if categories_list.first[0] == null %}
                 {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a>
+                    <a class="mt-1 mb-1" href="/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a>
                 {% endfor %}
             {% else %}
                 {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a>
+                    <a class="mt-1 mb-1" href="/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a>
                 {% endfor %}
             {% endif %}
             {% assign categories_list = nil %}
 		</div>
 	</div>
-</div>
+</div>-->
 
 <!-- Begin Footer
 ================================================== -->
@@ -185,7 +181,7 @@ ga('send', 'pageview');
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a class="nav-link" href="{{ site.baseurl }}/imprint">Imprint</a>
+                <a class="nav-link" href="/imprint">Imprint</a>
             </div>
         </div>
     </div>
@@ -202,13 +198,13 @@ ga('send', 'pageview');
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
-<script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
+<script src="/assets/js/mediumish.js"></script>
 
 {% if site.lazyimages == "enabled" %}
-<script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
+<script src="/assets/js/lazyload.js"></script>
 {% endif %}
 
-<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script> 
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
 
 </body>
 </html>

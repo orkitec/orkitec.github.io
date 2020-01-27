@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Stickporter"
-author: steffen
 categories: [ portfolio, orkitec ]
 image: assets/images/portfolio/orkitec/stickporter-splash.png
 ---

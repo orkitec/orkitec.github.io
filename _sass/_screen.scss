@@ -173,7 +173,6 @@ section.recent-posts {
     font-size: .8rem;
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
 }
 
 .author-thumb {
@@ -235,11 +234,10 @@ span.post-read-more {
     align-items: center;
     display: inline-block;
     float: right;
-    margin-top: 8px;
 }
 
 span.post-read-more a {
-    color: rgba(0, 0, 0, .44);
+    color: #00ab6b;
 }
 
 span.post-name a,

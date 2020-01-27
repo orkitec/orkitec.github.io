@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "kunst-stoff GmbH"
-author: steffen
 categories: [ portfolio, kunst-stoff ]
 image: assets/images/portfolio/kunst-stoff/volkswagen-think_blue-autostadt.jpg
 ---

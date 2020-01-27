@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Virtual Petality"
-author: steffen
 categories: [ portfolio, orkitec ]
 image: assets/images/portfolio/orkitec/virtual_petality.jpeg
 ---

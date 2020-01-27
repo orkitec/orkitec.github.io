@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "exozet"
-author: steffen
 categories: [ portfolio, exozet-games]
 image: assets/images/portfolio/exozet-games/paybackday.jpg
 ---

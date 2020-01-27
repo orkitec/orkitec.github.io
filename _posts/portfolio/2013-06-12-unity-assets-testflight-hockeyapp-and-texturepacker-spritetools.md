@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "TexturePacker SpriteTools"
-author: steffen
 categories: [ portfolio, orkitec ]
 image: assets/images/portfolio/orkitec/texturepacker-spritetools.jpg
 ---

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Kiss Before Midnight"
-author: steffen
 categories: [ portfolio, rotobee]
 image: assets/images/portfolio/rotobee/kbm.jpg
 ---

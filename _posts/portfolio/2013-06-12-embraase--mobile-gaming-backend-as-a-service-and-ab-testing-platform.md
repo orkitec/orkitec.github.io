@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "embraase"
-author: steffen
 categories: [ portfolio, mbaas-development ]
 image: assets/images/portfolio/mbaas-development/embraase-claim.jpg
 ---

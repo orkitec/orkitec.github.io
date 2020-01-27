@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Payleven (now SumUp)"
-author: steffen
 categories: [ portfolio, rocket-internet ]
 image: assets/images/portfolio/rocket-internet/payleven.png
 ---

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Chick'n'Charge"
-author: steffen
 categories: [ portfolio, orkitec ]
 image: assets/images/portfolio/orkitec/chickncharge-splash.jpg
 ---

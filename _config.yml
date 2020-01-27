@@ -8,7 +8,7 @@ baseurl: ""
 google_analytics: 'UA-32556221-1'
 githubpage: 'orkitec/orkitec.github.io'
 mailchimp-list: 'https://orkitec.us4.list-manage.com/subscribe/post?u=2fb782c5c31ac09a3c5d89bca&amp;id=aecf400a60'
-include: ["_pages"]
+include: ["_pages","_pages/portfolio"]
 permalink: /:categories/:title
 
 # Authors
@@ -18,9 +18,9 @@ authors:
     display_name: Steffen
     gravatar: a67637873ae1c6bf5b943db5d8568328
     email: info@orkitec.com
-    web: https://orkitec.com
+    web: https://orkitec.com/about
     twitter: https://twitter.com/orkitec
-    description: "If you liked this post or have any input please leave a comment or message me on twitter."
+    description: "If you liked this post or have any input please leave a comment or contact me on my <a href='https://twitter.com/orkitec'>twitter</a> or <a href='https://www.instagram.com/orkitec/'>instsagram</a>."
 
 # Plugins
 plugins:
@@ -29,7 +29,10 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
+sass:
+  style: compressed
+      
 # Archives
 jekyll-archives:
   enabled:

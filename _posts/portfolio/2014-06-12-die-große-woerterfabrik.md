@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Die große Wörterfabrik"
-author: steffen
 categories: [ portfolio, mbaas-development ]
 image: assets/images/portfolio/mbaas-development/die_grosse_woerterfabrik-splash.jpg
 ---

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Computerscience, Networks, Media and Artificial Intelligence, SAP and Webdevelopment"
-author: steffen
 categories: [ portfolio, studies]
 image: assets/images/portfolio/studies/merseburg.jpg
 ---
