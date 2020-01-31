@@ -1,9 +1,6 @@
 ---
-layout: default
+layout: portfolio
 title: Studies
 permalink: /portfolio/studies
+portfoliosite: studies.html
 ---
-
-<div class="row listrecent">
-{% include_relative studies.html %}
-</div>

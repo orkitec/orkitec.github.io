@@ -1,28 +1,14 @@
 ---
-title: "Categories"
 layout: default
-permalink: "/categories.html"
 ---
 
 <div class="row listrecent">
-{% assign sortedcategories = site.categories %}
+{% include_relative {{ page.portfoliosite }} %}
+</div>
 
-{% for category in sortedcategories  %}
-	{% unless page.ignoreCategories contains category[0] %}
-
-	<div class="section-title col-md-12 mt-4">
-	<h2 id="{{ category[0] | replace: " ","-" }}"> <span class="text-capitalize">{{ category[0] }}</span></h2>
-	</div>
-	{% assign pages_list = category[1] %}
-	{% for post in pages_list %}
-		{% if post.title != null %}
-			{% if group == null or group == post.group %}
-				{% include postbox.html %}
-			{% endif %}
-		{% endif %}
-	{% endfor %}
-	{% assign pages_list = nil %}
-	{% assign group = nil %}
-	{% endunless %}
-{% endfor %}
+<div class="bottompagination">
+<div class="pointerup"><i class="fa fa-caret-up"></i></div>
+<span class="navigation" role="navigation">
+    <a class="ml-1 mr-1" href="/portfolio">Full Portfolio &raquo;</a>
+</span>
 </div>

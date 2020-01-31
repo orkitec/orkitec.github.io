@@ -1,9 +1,6 @@
 ---
-layout: default
+layout: portfolio
 title: Mbaas-Development
 permalink: /portfolio/mbaas-development
+portfoliosite: mbaas-development.html
 ---
-
-<div class="row listrecent">
-{% include_relative mbaas-development.html %}
-</div>

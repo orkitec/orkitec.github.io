@@ -1,9 +1,6 @@
 ---
-layout: default
+layout: portfolio
 title: Rocket-Internet
 permalink: /portfolio/rocket-internet
+portfoliosite: rocket-internet.html
 ---
-
-<div class="row listrecent">
-{% include_relative rocket-internet.html %}
-</div>

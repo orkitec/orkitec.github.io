@@ -1,9 +1,6 @@
 ---
-layout: default
+layout: portfolio
 title: Kunst-Stoff
 permalink: /portfolio/kunst-stoff
+portfoliosite: kunst-stoff.html
 ---
-
-<div class="row listrecent">
-{% include_relative kunst-stoff.html %}
-</div>

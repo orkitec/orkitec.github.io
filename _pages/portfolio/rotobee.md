@@ -1,9 +1,6 @@
 ---
-layout: default
+layout: portfolio
 title: Rotobee
 permalink: /portfolio/rotobee
+portfoliosite: rotobee.html
 ---
-
-<div class="row listrecent">
-{% include_relative rotobee.html %}
-</div>

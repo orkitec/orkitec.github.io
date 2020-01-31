@@ -1,9 +1,6 @@
 ---
-layout: default
+layout: portfolio
 title: Exozet-Games
 permalink: /portfolio/exozet-games
+portfoliosite: exozet-games.html
 ---
-
-<div class="row listrecent">
-{% include_relative exozet-games.html %}
-</div>

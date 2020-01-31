@@ -1,9 +1,6 @@
 ---
-layout: default
+layout: portfolio
 title: Orkitec
 permalink: /portfolio/orkitec
+portfoliosite: orkitec.html
 ---
-
-<div class="row listrecent">
-{% include_relative orkitec.html %}
-</div>
