@@ -15,8 +15,8 @@ Soccer Champ was the first full game where I was leading and planning the develo
 
 *Soccer Champ is aimed at young soccer fans. In the construction simulation, the players have the task of one
 To accompany young footballers in his career. The focus is on character development. The
-Players can influence the development or success of the character through strategic decisions as well as through action sequences. The focus is on the action sequences.
+Players can influence the development or success of the character through strategic decisions as well as through action sequences. The focus is on the action sequences.*
 
-In Soccer Champ - unlike other soccer simulations - the focus of the game is on the individual
+*In Soccer Champ - unlike other soccer simulations - the focus of the game is on the individual
 Soccer player and not on the team. The mission-bound game runs from the beginning (first day of the youth league) until the professional league championship is won.*
    
