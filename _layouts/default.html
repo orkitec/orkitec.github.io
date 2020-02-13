@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="/assets/images/logo.png">
+<link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.png">
 
 <title>{{ page.title }} | {{site.name}}</title>
 
@@ -39,8 +39,8 @@ ga('send', 'pageview');
 
 <!-- Begin Menu Navigation
 ================================================== -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
-
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top mediumnavigation nav-down">
+    
     <div class="container pr-0">
 
     <!-- Begin Logo -->
@@ -105,17 +105,23 @@ ga('send', 'pageview');
 ================================================== -->
 
 <div class="site-content">
-
+    {% if page.url == "/" %}
+    <div class="homeintro">
+        <div class="banner">
+        </div>
+        
+    </div>
+    {% endif %}
 <div class="container">
 
 <!-- Site Title
 ================================================== -->
 {% if page.url == "/" %}
 <div class="mainheading">
-    <h1 class="sitetitle">{{ site.name }}</h1>
-    <p class="lead">
+    <!--<h1 class="sitetitle">{{ site.name }}</h1>-->
+    <h3 class="sitetitle">
         {{ site.description }}
-    </p>
+    </h3>
     <p class="lead"><b>
         NOTE: This website is currently very much under construction and its just online since I was a bit quick with updating the DNS settings. All posts and games contain mostly dummy content and are currently rewritten but it takes me a bit more time then anticipated. If you want to see a bit more about my past projects please head over to the old version of the site under: <a href="http://old.orkitec.com">http://old.orkitec.com</a>. 
         You can already subscribe to the newsletter if you want to be notified once the page is fully up and running. 

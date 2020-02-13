@@ -7,6 +7,77 @@ License: https://www.wowthemes.net/freebies-license/
     html { font-size:18px; } /* Increase the font size on higher resolutions */
     .container {max-width:80%;}
 }
+
+body {
+    color: #8F8F8E;
+    background-color: #181818;
+}
+
+.card {
+    background-color: #202020;
+    border:1px solid #343434;
+    border-radius:.25rem
+}
+
+.homeintro {
+    min-height: 390px;
+    background:  #181818 url(../images/introbg.png) repeat-x;
+}
+
+.banner {
+    clear: both;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	background: transparent url(../images/header-image.png) no-repeat right top;
+	height: 390px;
+    text-align: left;
+    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1.5s; /* Firefox < 16 */
+     -ms-animation: fadein 1.5s; /* Internet Explorer */
+      -o-animation: fadein 1.5s; /* Opera < 12.1 */
+         animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.bannerlayer2 {
+    clear: both;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	background: transparent url(../images/header-image2.png) no-repeat right top;
+	height: 390px;
+	text-align: left;
+}
+
 .mainheading {
     padding: 1rem 0rem;
 }
@@ -14,6 +85,10 @@ License: https://www.wowthemes.net/freebies-license/
 a {
     color: #00ab6b;
     transition: all 0.2s;
+}
+
+.text-light {
+    color: silver !important;
 }
 
 a:hover {
@@ -39,7 +114,7 @@ pre {
 }
 
 .mediumnavigation {
-    background: rgba(255, 255, 255, .97);
+    background:  rgba(0,0,0,0.9);
     box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15);
     transition: top 0.2s ease-in-out;
 }
@@ -51,7 +126,7 @@ pre {
 .site-content {
     min-height: 60vh;
     padding-top: 1.5rem;
-    margin-top: 57px;
+    margin-top: 32px;
     transition: all 0.4s;
 }
 
@@ -64,7 +139,7 @@ section.recent-posts {
 }
 
 .section-title h2 {
-    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    border-bottom: 1px solid #8F8F8E;
     margin-bottom: 25px;
     font-weight: 700;
     font-size: 1.4rem;
@@ -72,7 +147,7 @@ section.recent-posts {
 }
 
 .section-title span {
-    border-bottom: 1px solid rgba(0, 0, 0, .44);
+    border-bottom: 2px solid #8F8F8E;
     display: inline-block;
     padding-bottom: 20px;
     margin-bottom: -1px;
@@ -105,7 +180,7 @@ section.recent-posts {
 }
 
 .listfeaturedtag {
-    border: 1px solid rgba(0, 0, 0, .125);
+    border: 1px solid #343434;
     border-radius: .25rem;
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
@@ -149,7 +224,6 @@ section.recent-posts {
 
 .listfeaturedtag h4.card-text,
 .listrecent h4.card-text {
-    color: rgba(0, 0, 0, .44);
     font-size: 0.95rem;
     line-height: 1.6;
     font-weight: 400;
@@ -197,7 +271,7 @@ section.recent-posts {
 
 .post-top-meta span {
     font-size: 0.9rem;
-    color: rgba(0, 0, 0, .44);
+    color: rgba(255, 255, 255, .44);
     display: inline-block;
 }
 
@@ -227,7 +301,7 @@ span.author-meta {
 
 span.post-date,
 span.post-read {
-    color: rgba(0, 0, 0, .44);
+    color: rgba(255, 255, 255, .44);
 }
 
 span.post-read-more {
@@ -242,7 +316,7 @@ span.post-read-more a {
 
 span.post-name a,
 span.post-read-more a:hover {
-    color: rgba(0, 0, 0, .8);
+    color: rgba(255, 255, 255, .8);
 }
 
 .dot:after {
@@ -309,18 +383,17 @@ span.post-read-more a:hover {
 .mainheading h1.posttitle {
     font-weight: 700;
     margin-bottom: 1rem;
+    color: silver;
 }
 
 .footer {
-    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.25) !important;
     padding-top: 15px;
     padding-bottom: 12px;
     font-size: 0.8rem;
-    color: rgba(0, 0, 0, .44);
     margin-top: 50px;
     margin-bottom: 62px;
     position: relative;
-    background: #fff;
 }
 
 .link-dark {
@@ -331,14 +404,12 @@ span.post-read-more a:hover {
     font-family: Merriweather;
     font-size: 1.1rem;
     line-height: 1.84;
-    color: rgba(0, 0, 0, .8);
 }
 
 blockquote {
     border-left: 4px solid #00ab6b;
     padding: 0 20px;
     font-style: italic;
-    color: rgba(0, 0, 0, .5);
 }
 
 .article-post p,
@@ -430,8 +501,10 @@ blockquote {
     .alertbar input[type="email"] {
         margin-right: 0px !Important;
         display: block;
-        border-right: 1px solid #ddd !Important;
+        border-right: 1px solid grey !Important;
         margin-bottom: 10px;
+        color: white;
+        background-color: black;
     }
 
     .jumbotron {
@@ -472,7 +545,6 @@ blockquote {
 
 .share,
 .share a {
-    color: rgba(0, 0, 0, .44);
     fill: rgba(0, 0, 0, .44);
 }
 
@@ -499,14 +571,14 @@ ul.tags li {
 }
 
 ul.tags li a {
-    background: rgba(0, 0, 0, .05);
-    color: rgba(0, 0, 0, .6);
+    background: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, .9);
     border-radius: 3px;
     padding: 5px 10px;
 }
 
 ul.tags li a:hover {
-    background: rgba(0, 0, 0, .07);
+    background: rgba(255, 255, 255, .7);
     text-decoration: none;
 }
 
@@ -550,11 +622,11 @@ ul.tags li a:hover {
 }
 
 .alertbar {
-    box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, .0785);
+    box-shadow: 0 -3px 10px 0 rgba(255, 255, 255, .185);
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #000;
     width: 100%;
     padding: 14px 0;
     z-index: 1;
@@ -570,12 +642,14 @@ ul.tags li a:hover {
     padding: 3px 5px 3px 10px;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
-    border: 1px solid #ddd;
+    border: 1px solid grey;
     border-right: 0;
     margin-right: -10px;
     height: 34px;
     letter-spacing: 0.5px;
     margin-left: 5px;
+    color: white;
+    background-color: black;
 }
 
 .alertbar input[type="submit"] {
@@ -728,7 +802,7 @@ img {
     text-align: center;
     margin-bottom: 0rem;
     color: #999;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #8F8F8E;
 }
 
 .pointerup {
@@ -738,7 +812,7 @@ img {
 }
 
 .pointerup i.fa {
-    color: #eaeaea;
+    color: #8F8F8E;
 }
 
 .bottompagination span.navigation i {
