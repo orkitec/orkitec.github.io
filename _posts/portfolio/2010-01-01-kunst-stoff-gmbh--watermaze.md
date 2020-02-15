@@ -7,7 +7,7 @@ image: assets/images/portfolio/kunst-stoff/watermaze.jpg
 
 The Kunst-Stoff GmbH developed its own games but also did take on customer projects and Watermanze is one of them. Its a serious game for testing the orientation skills of Alzheimer patients while being scanned in MRT. It has been developed in cooperation with the Center for Regenerative Therapies Dresden and the German Center for Neurodegenerative Diseases.
 
-![game engine](/assets/images/portfolio/kunst-stoff/watermaze2.jpg)
+![game engine](../../assets/images/portfolio/kunst-stoff/watermaze2.jpg)
 
 The budget and initial features for Watermaze have been limited so we decied to use my own [game engine](/portfolio/orkitec/orkige-orkitec-game-engine) wich I have been working on over the past years as hobby and learning tool for myself.
 
