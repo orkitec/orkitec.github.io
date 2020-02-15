@@ -2,7 +2,8 @@
 layout: post
 title:  "orkitec 2018 - Striking a publisher deal and selling my company ... easy peasy, DUH 🤦"
 author: steffen
-categories: [ blog, devlog ]
+categories: [ blog, devlog  ]
+tags: [red, yellow]
 image: assets/images/blog/orkitec-devlog-2018/2018.jpg
 description: "A retrospective writeup summary of all the happenings in 2018 as far as i can remember them"
 featured: true
@@ -49,4 +50,24 @@ It was heavy and also frustrating at times but also cool to see the game progres
 In addition to all of that we also went forward with selling [Applanga](/portfolio/mbaas-development/applanga) wich meant a lot of calls and meetings with lawyers and our current shareholders. All went superfast on that front and on December 18. 2018 we sold [Applanga](/portfolio/mbaas-development/applanga) to [Transperfect](https://transperfect.com) *"the largest privately owned language services provider"*. I won't go into much detail about the aquisition and the process since this page is about orkitec but as of the writing of this post in february 2020 Christian my Co-Founder and I are still managing Applanga just under a much bigger umbrella.
 
 I did not manage to release ChessFinity in Q1 2019 but in early Q2 wich was still fine but I'll probably write about that in more detail in the [2019 Devlog](/blog/devlog/orkitec-devlog-2019).
+Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! JSON-LD ready for review property.
 
+#### How to use?
+
+It's actually really simple! Add the rating in your YAML front matter. It also supports halfs:
+
+```html
+---
+layout: post
+title:  "Inception Movie"
+author: john
+categories: [ Jekyll, tutorial ]
+tags: [red, yellow]
+image: assets/images/11.jpg
+description: "My review of Inception movie. Actors, directing and more."
+rating: 4.5
+---
+```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTc1MDE5MzI4XX0=
+-->
