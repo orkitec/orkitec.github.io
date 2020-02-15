@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "Pudding Panic"
-categories: [ portfolio, kunst-stoff ]
+title: Pudding Panic
+categories:
+  - portfolio
+  - kunst-stoff
 image: assets/images/portfolio/kunst-stoff/the_great_jitters-pudding_panic.jpg
+published: true
 ---
 "Help an anxious pudding who got lost in a haunted house, save him from the terrible monsters, and be careful that he does not lose his courage during his escape!"
 
@@ -16,6 +19,4 @@ As special as this description reads itself as special is the game. Pudding Pani
  
  ![Pudding_screenshot](/assets/images/portfolio/kunst-stoff/ks_site_pudding_screenshot05.jpg)
  
-To a certian extent the game design also has been a continuation of the puzzle game concept that [kunst-stoff](/portfolio/kunst-stoff/) invented in [Galaxy Racers](/portfolio/kunst-stoff/kunst-stoff-gmbh-galaxy-racers).
- 
- 
+To a certain extent the game design also has been a continuation of the puzzle game concept that [kunst-stoff](/portfolio/kunst-stoff/) invented in [Galaxy Racers](/portfolio/kunst-stoff/kunst-stoff-gmbh-galaxy-racers).
