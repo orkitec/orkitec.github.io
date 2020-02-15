@@ -2,7 +2,7 @@
 layout: post
 title:  "orkitec 2019"
 author: steffen
-categories: [ blog ]
+categories: [ blog, devlog ]
 tags: [red, yellow]
 image: assets/images/blog/orkitec-devlog-2019/2019.jpg
 description: "A retrospective writeup summary of all the happenings in 2019 as far as i can remember them"
