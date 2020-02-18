@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: What is a orkitec?
 permalink: /about
 comments: true
 ---
