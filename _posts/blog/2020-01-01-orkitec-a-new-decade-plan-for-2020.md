@@ -6,9 +6,10 @@ categories: [ blog ]
 image: assets/images/blog/orkitec-a-new-decade-plan-for-2020/2020.png
 feature: true
 ---
-As I engage in the so-called "bull sessions" around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the "brethren" think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.
 
-It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.
+The last years have been quite intense but In the past a rarely shared anything about my professional or hobby indie gamedev stuff endeavours. I read, watch and follow the progress of several indie devs and always find it quite motivating so for 2020 I decided to share more about my ongoing process and progress since I also decided to work on a new game.
+So far I have retrospectively written devlogs summarizing the happenings and [2019](/blog/devlog/orkitec-devlog-2019) and [2018](/blog/devlog/orkitec-devlog-2018) as well as some basics information for all [past projects](/portfolio/) but there is much more to come it just takes quite a bunch of time doing all this content.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDI5ODIzMl19
+eyJoaXN0b3J5IjpbLTEyNjkyNzUyMiwxMjY4NTQ1MTI3LDExMT
+QyOTgyMzJdfQ==
 -->
