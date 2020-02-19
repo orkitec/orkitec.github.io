@@ -11,7 +11,7 @@ An ork who is an architect?
 Technology from planet ork?   
 Something with dragons?   
 
-The name actually does not stand for anything specific but is just an abbrevation of a nickname I used ages ago and I picket it when it was officially registered as a business.
+The name actually does not stand for anything specific it originated of a nickname I used ages ago and I picket it when I officially registered as a business.
 
 ## Who is orkitec?
 
@@ -21,8 +21,8 @@ Hi I'm Steffen a solo indie developer and the founder of orkitec.
 
 ## What orkitec is and what it is not?
 
-Most of what I do under the orkitec brand is in some way related to indie game development and an occasional app or service here and there. You can find more details about my projects [here](/portfolio/orkitec).
-orkitec is not my fulltime job since during the day I've built and co-manage the software localization company and platform [Applanga](/portfolio/mbaas-development/Applanga).
+Most of what happens under the orkitec brand is in some way related to indie game development and an occasional app or service here and there. You can find more details about [orkitec projects here](/portfolio/orkitec).
+orkitec is not my full time job since during the day I've built and co-manage the software localization platform and company [Applanga](/portfolio/mbaas-development/Applanga).
 
 ## What is this site about?
 
@@ -45,5 +45,5 @@ Please subscribe to the newsletter.
 
 Please leave a comment below.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ2NjQ5MjBdfQ==
+eyJoaXN0b3J5IjpbLTk3ODcwNzIwMywtMTA3NDY2NDkyMF19
 -->
