@@ -82,6 +82,35 @@ body {
     padding: 1rem 0rem;
 }
 
+
+.aboutnewsletter input[type="email"] {
+    font-size: 0.85rem;
+    padding: 3px 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: 1px solid grey;
+    height: 34px;
+    letter-spacing: 0.5px;
+    color: white;
+    background-color: black;
+}
+
+.aboutnewsletter input[type="submit"] {
+    background-color: #1C9963;
+    border: 1px solid #1C9963;
+    color: rgba(255, 255, 255, 1);
+    fill: rgba(255, 255, 255, 1);
+    font-size: 0.85rem;
+    padding: 3px 10px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-weight: 600;
+    height: 34px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+
 a {
     color: #00ab6b;
     transition: all 0.2s;
