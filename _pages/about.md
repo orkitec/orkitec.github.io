@@ -26,7 +26,7 @@ orkitec is not my full time job since during the day I've built and co-manage th
 
 ## What is this site about?
 
-Most of the content here is about my solo indie gamedevlopment side huzzle with [orkitec](/portfolio/orkitec) but also a [portfolio](/portfolio/) collection of other projects I worked on, a [blog](/blog/) with tutorials and a [devlog](/blog/devlog/) with ongoing development progress.
+Most of the content here is somehow tied to my solo indie game development huzzle with [orkitec](/portfolio/orkitec) but also a [portfolio](/portfolio/) collection of other projects I worked on, a [blog](/blog/) with tutorials and a [devlog](/blog/devlog/) with ongoing development progress.
 
 ## Want to stay up to date?
 
@@ -45,5 +45,6 @@ Please subscribe to the newsletter.
 
 Please leave a comment below.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODcwNzIwMywtMTA3NDY2NDkyMF19
+eyJoaXN0b3J5IjpbMTIyNjQ4ODQ2NSwtOTc4NzA3MjAzLC0xMD
+c0NjY0OTIwXX0=
 -->
