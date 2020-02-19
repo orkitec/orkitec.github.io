@@ -1,22 +1,32 @@
 ---
 layout: page
-title: What is an orkitec?
+title: What about orkitec?
 permalink: /about
 comments: true
 author: steffen
 ---
+## What does orkitec stand for?
 
 An ork who is an architect?    
 Technology from planet ork?   
 Something with dragons?   
 
+The name actually does not stand for anything specific but is just an abbrevation of a nickname I used ages ago and I picket it when it was officially registered as a business.
+
+## Who is orkitec?
+
+Hi I'm Steffen a solo indie developer and the founder of orkitec. 
+
 <img class="author-thumb" src="https://www.gravatar.com/avatar/a67637873ae1c6bf5b943db5d8568328?s=250&amp;d=mm&amp;r=x" alt="Steffen">
 
-Hi I'm Steffen and this website is a reflection of my past projects, current endeavours, tutorials.    
-The name does not stand for anything specific but is just an abbrevation of a nickname I used ages ago and I picket it when it was officially registered as a business.
-orkitec is not my fulltime job since during the day I've built and still co-manage a software localization platform called [portfolio](/portfolio/mbaas-development/Applanga).
-Most of the website content is about my solo indie gamedevlopment side huzzle with [orkitec](/portfolio/orkitec) but also a [portfolio](/portfolio/) collection of projects I worked on outside the frame of orkitec.
-Additionally there is a [Blog](/blog/) with tutorials and a [Devlog](/blog/devlog/) with ongoing development process.
+## What orkitec is and what it is not?
+
+Most of what I do under the orkitec brand is in some way related to indie game development and an occasional app or service here and there. You can find more details about my projects [here](/portfolio/orkitec).
+orkitec is not my fulltime job since during the day I've built and co-manage the software localization company and platform [Applanga](/portfolio/mbaas-development/Applanga).
+
+## What is this site about?
+
+Most of the content here is about my solo indie gamedevlopment side huzzle with [orkitec](/portfolio/orkitec) but also a [portfolio](/portfolio/) collection of other projects I worked on, a [blog](/blog/) with tutorials and a [devlog](/blog/devlog/) with ongoing development progress.
 
 ## Want to stay up to date?
 
@@ -31,6 +41,9 @@ Please subscribe to the newsletter.
 </div>
 <br>
 
-## Want to know more of found n issue?
+## Want to know more or found an issue?
 
 Please leave a comment below.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwNzQ2NjQ5MjBdfQ==
+-->
