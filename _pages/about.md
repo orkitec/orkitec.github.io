@@ -21,7 +21,7 @@ Hi I'm Steffen a solo indie developer and the founder of orkitec.
 
 ## What orkitec is and what it is not?
 
-Most of what happens under the orkitec brand is in some way related to indie game development and an occasional app or service here and there. You can find more details about [orkitec projects here](/portfolio/orkitec).
+Most of what happens under the orkitec brand is in some way related to indie game development and the occasional app or service here and there. You can find more details about [orkitec projects here](/portfolio/orkitec).
 orkitec is not my full time job since during the day I've built and co-manage the software localization platform and company [Applanga](/portfolio/mbaas-development/Applanga).
 
 ## What is this site about?
@@ -45,6 +45,6 @@ Please subscribe to the newsletter.
 
 Please leave a comment below.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjQ4ODQ2NSwtOTc4NzA3MjAzLC0xMD
-c0NjY0OTIwXX0=
+eyJoaXN0b3J5IjpbLTkxMjMzMzUyMSwxMjI2NDg4NDY1LC05Nz
+g3MDcyMDMsLTEwNzQ2NjQ5MjBdfQ==
 -->
