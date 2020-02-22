@@ -21,6 +21,6 @@ Hi, I'm Steffen the founder of [orkitec](/about/). On this page you'll find a ov
 
 	{% include_relative rotobee.html %}
 	
-	{% include_relative studies.html %}
+	<!--{% include_relative studies.html %}-->
 
 </div>
