@@ -19,7 +19,7 @@ In the dialog that pops up then you should be able to select your phone and sele
 
 ![add device image](../../assets/images/blog/how-to-use-your-iphone-for-streaming/add_device.png)
 After a few seconds you should already see your iPhone screen in the preview window. After that you just need to press ok and can capture your device (which also may come in handy if you want to stream mobile gameplay).
-![pick phone image](../../assets/images/blog/how-to-use-your-iphone-for-streaming/picke_phone.png)
+![pick phone image](../../assets/images/blog/how-to-use-your-iphone-for-streaming/pick_phone.png)
 
 Now since you can capture your phone screen you just need to open your camera app and can see the video feed. 
 The problem now still is you see all the camera controls on the screen and while you could apply a crop filter to remove the borders by right clicking on the capture device and then going into filters. you would still see the focus rects which are not deactivatable.
@@ -32,9 +32,9 @@ Depending on the iPhone you use you still might need to apply a bit of crop filt
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTkxMjQ1MiwxMzU3NjM3MTgxLDQ2MT
-kyNjcwMiwtMzE2Mjg3MTQ4LDEwNjA4NTY0NTUsLTEzNjA0NzYy
-LDI0Njc4MTE3MywtNDE0Njk1MjcxLDEwMDIxMTQ4MzcsLTEzMj
-Y0MzcwOTQsMTc0MDYwNDIsLTE1MTg3Mjk4Myw2OTQ0OTI4ODIs
-MTA2Nzg0NTMyMywtMjk0MjUwOTA3XX0=
+eyJoaXN0b3J5IjpbMTg5NDg3MzE4MSwxMzI5OTEyNDUyLDEzNT
+c2MzcxODEsNDYxOTI2NzAyLC0zMTYyODcxNDgsMTA2MDg1NjQ1
+NSwtMTM2MDQ3NjIsMjQ2NzgxMTczLC00MTQ2OTUyNzEsMTAwMj
+ExNDgzNywtMTMyNjQzNzA5NCwxNzQwNjA0MiwtMTUxODcyOTgz
+LDY5NDQ5Mjg4MiwxMDY3ODQ1MzIzLC0yOTQyNTA5MDddfQ==
 -->

@@ -6,6 +6,8 @@ ignoreCategories: ['portfolio', 'blog']
 ---
 
 <div class="row listrecent">
+<br><br>
+Hi, I'm Steffen the founder of [orkitec](/about/). On this page you'll find a overview of all things I've worked on in the scope of orkitec but also an overview of other companies or products that I've built in the past or currently in parallel.
 
 	{% include_relative orkitec.html %}
 	

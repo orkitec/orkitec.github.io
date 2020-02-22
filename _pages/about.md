@@ -15,13 +15,13 @@ The name actually does not stand for anything specific it originated of a nickna
 
 ## Who is orkitec?
 
-Hi I'm Steffen a solo indie developer and the founder of orkitec. 
+Hi I'm Steffen the founder of orkitec but you could also say I am orkitec since this is a one man show. 
 
 <img class="author-thumb" src="https://www.gravatar.com/avatar/a67637873ae1c6bf5b943db5d8568328?s=250&amp;d=mm&amp;r=x" alt="Steffen">
 
 ## What orkitec is and what it is not?
 
-Most of what happens under the orkitec brand is in some way related to indie game development and the occasional app or service here and there. You can find more details about [orkitec projects here](/portfolio/orkitec).
+Most of what happens under the orkitec umbrella is in some way related to indie game development and the occasional app or service here and there. You can find more details about [orkitec projects here](/portfolio/orkitec).
 orkitec is not my full time job since during the day I've built and co-manage the software localization platform and company [Applanga](/portfolio/mbaas-development/Applanga).
 
 ## What is this site about?
@@ -45,6 +45,7 @@ Please subscribe to the newsletter.
 
 Please leave a comment below.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjMzMzUyMSwxMjI2NDg4NDY1LC05Nz
-g3MDcyMDMsLTEwNzQ2NjQ5MjBdfQ==
+eyJoaXN0b3J5IjpbMTg3Mzg2NTA0OSwxNzE5OTQyMjIwLC05MT
+IzMzM1MjEsMTIyNjQ4ODQ2NSwtOTc4NzA3MjAzLC0xMDc0NjY0
+OTIwXX0=
 -->
