@@ -17,7 +17,7 @@ The name actually does not stand for anything specific it originated of a nickna
 
 Hi I'm Steffen the founder of orkitec but you could also say I am orkitec since this is a one man show. 
 
-<img class="author-thumb" src="https://www.gravatar.com/avatar/a67637873ae1c6bf5b943db5d8568328?s=250&amp;d=mm&amp;r=x" alt="Steffen">
+<img src="/assets/images/headexplode_400x400.png" alt="Steffen">
 
 ## What orkitec is and what it is not?
 
@@ -45,7 +45,7 @@ Please subscribe to the newsletter.
 
 Please leave a comment below.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Mzg2NTA0OSwxNzE5OTQyMjIwLC05MT
-IzMzM1MjEsMTIyNjQ4ODQ2NSwtOTc4NzA3MjAzLC0xMDc0NjY0
-OTIwXX0=
+eyJoaXN0b3J5IjpbMjY3NjQwMzM3LDE4NzM4NjUwNDksMTcxOT
+k0MjIyMCwtOTEyMzMzNTIxLDEyMjY0ODg0NjUsLTk3ODcwNzIw
+MywtMTA3NDY2NDkyMF19
 -->

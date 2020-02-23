@@ -2,7 +2,10 @@
 	<div class="section-title col-md-12 mt-4">
 	<h2 id="orkitec"> <span class="text-capitalize"><a href="/portfolio/orkitec">orkitec</a></span></h2>
 	<p>
-		Orkitec is a solo independent developer from Berlin founded by me (Steffen Römer) in 2009 around the same time that I've joined <a href="/portfolio/kunst-stoff">kunst-stoff</a>. It was offical registered because I wanted to release a game in the apple appstore and needed a legal entity for this. I also wanted to try to license my <a href="/portfolio/orkitec/orkige-orkitec-game-engine">game engine</a> that I've already worked on for a few years as a hobby and learning project for myself. Over the past 10+ years orkitec released several games, apps and plugins.
+		{% if page.url contains "/orkitec" %}
+        Hi, I'm Steffen the founder of orkitec.
+        {% endif %}
+		The offical registeration of orkitec happened 2009 in Berlin because I needed a legal entity to release my first app in Apple App Store. In addition to that I also wanted to try to sell licenses for a <a href="/portfolio/orkitec/orkige-orkitec-game-engine">game engine</a> that I've already worked on for a few years as a hobby and learning project. Over the past 10+ years I released several games, apps and plugins as orkitec.
 	</p>
 	</div>
 	{% assign pages_list = site.categories.orkitec %}
