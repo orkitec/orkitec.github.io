@@ -20,9 +20,59 @@ body {
 }
 
 .homeintro {
-    min-height: 390px;
+    /*min-height: 390px;*/
     background:  #181818 url(../images/introbg.png) repeat-x;
+    margin:auto;
+  position:relative; /*sets up for children to be abs pos*/
 }
+
+.homeintro_inner {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.swing-5 {
+    -webkit-animation: swing 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    -moz-animation: swing 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    animation: swing 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+@-webkit-keyframes swing {
+    0% {
+      -webkit-transform: rotateZ(2deg);
+      -moz-transform: rotateZ(2deg);
+      transform: rotateZ(2deg); }
+    100% {
+      -webkit-transform: rotateZ(-2deg);
+      -moz-transform: rotateZ(-2deg);
+      transform: rotateZ(-2deg); } }
+  @-moz-keyframes swing {
+    0% {
+      -webkit-transform: rotateZ(2deg);
+      -moz-transform: rotateZ(2deg);
+      transform: rotateZ(2deg); }
+    100% {
+      -webkit-transform: rotateZ(-2deg);
+      -moz-transform: rotateZ(-2deg);
+      transform: rotateZ(-2deg); } }
+  @-ms-keyframes swing {
+    0% {
+      -webkit-transform: rotateZ(2deg);
+      -moz-transform: rotateZ(2deg);
+      transform: rotateZ(2deg); }
+    100% {
+      -webkit-transform: rotateZ(-2deg);
+      -moz-transform: rotateZ(-2deg);
+      transform: rotateZ(-2deg); } }
+  @keyframes swing {
+    0% {
+      -webkit-transform: rotateZ(2deg);
+      -moz-transform: rotateZ(2deg);
+      transform: rotateZ(2deg); }
+    100% {
+      -webkit-transform: rotateZ(-2deg);
+      -moz-transform: rotateZ(-2deg);
+      transform: rotateZ(-2deg); } }
 
 .banner {
     clear: both;

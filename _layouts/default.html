@@ -26,6 +26,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', '{{site.google_analytics}}', 'auto');
 ga('send', 'pageview');
 </script>
+
 {% endif %}
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
@@ -107,10 +108,32 @@ ga('send', 'pageview');
 <div class="site-content">
     {% if page.url == "/" %}
     <div class="homeintro">
-        <div class="banner">
-        </div>
+        <div class="homeintro_inner">
+            <div id="scene">
+                <div data-depth="1.00"><div class="swing-5"><img src="/assets/images/header-image_chickn.png"></div></div>
+                <img src="/assets/images/header-image.png">
         
+                
+                <div data-depth="0.45"><img src="/assets/images/header-image_head.png"></div>
+                <div data-depth="0.10"><img src="/assets/images/header-image_chesspieces.png"></div>
+                <div data-depth="0.05"><img src="/assets/images/header-image_stickporter.png"></div>
+                <div data-depth="0.02"><img src="/assets/images/header-image_dog.png"></div>
+            </div>
+        </div>
     </div>
+
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+      <script>
+          var scene = document.getElementById('scene');
+	        var parallax = new Parallax(scene, {
+                relativeInput: true,
+                clipRelativeInput: true,
+                scalarX: 5
+            });
+      </script>
+      
     {% endif %}
 <div class="container">
 
