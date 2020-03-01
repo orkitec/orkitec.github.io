@@ -11,11 +11,11 @@ An ork who is an architect?
 Technology from planet ork?   
 Something with dragons?   
 
-The name actually does not stand for anything specific it originated of a nickname I used ages ago and I picket it when I officially registered as a business.
+The name actually does not stand for anything specific it originated of a nickname I used ages ago and I picked it when I officially registered as a business.
 
 ## Who is orkitec?
 
-Hi I'm Steffen the founder of orkitec but you could also say I am orkitec since this is a one man show. 
+Hi I'm [Steffen](/steffen) the founder of orkitec. 
 
 <img src="/assets/images/headexplode_400x400.png" alt="Steffen">
 
@@ -45,7 +45,7 @@ Please subscribe to the newsletter.
 
 Please leave a comment below.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3NjQwMzM3LDE4NzM4NjUwNDksMTcxOT
-k0MjIyMCwtOTEyMzMzNTIxLDEyMjY0ODg0NjUsLTk3ODcwNzIw
-MywtMTA3NDY2NDkyMF19
+eyJoaXN0b3J5IjpbLTE1MjIwODgxODEsMjY3NjQwMzM3LDE4Nz
+M4NjUwNDksMTcxOTk0MjIyMCwtOTEyMzMzNTIxLDEyMjY0ODg0
+NjUsLTk3ODcwNzIwMywtMTA3NDY2NDkyMF19
 -->
