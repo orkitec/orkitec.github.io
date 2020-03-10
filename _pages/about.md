@@ -17,7 +17,7 @@ The name actually does not stand for anything specific it originated of a nickna
 
 Hi I'm [Steffen](/steffen) the founder of orkitec. 
 
-<img src="/assets/images/headexplode_400x400.png" alt="Steffen">
+{% include picture.html img="/assets/images/headexplode_400x400.png" alt="steffen head explode" %}
 
 ## What orkitec is and what it is not?
 

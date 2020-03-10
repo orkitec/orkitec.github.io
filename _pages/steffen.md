@@ -9,7 +9,7 @@ author: steffen
 
 I'm Steffen Römer the founder of [orkitec](/about/) but you could also say I am orkitec since I'm the only one here. 
 
-![steffen head explode](../assets/images/headexplode_400x400.png)
+{% include picture.html img="/assets/images/headexplode_400x400.png" alt="steffen head explode" %}
 
 I'm a developer with a ton of different interests and specialities.    
 I like to start building things and luckily I'm also managing to finish some of them.   

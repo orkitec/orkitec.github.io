@@ -1,6 +1,28 @@
-{% assign img = include.img %}
-{% assign path = include.path %}
+{% assign ext = include.img | split: "." | last %}
+{% assign dot_ext =  "." | append: ext %}
+{% assign img = include.img | remove: dot_ext | remove: '/assets/images/' | remove: 'assets/images/'%}
+
+{% if img contains "/" %}
+    {% assign path = img %}
+    {% assign img = img | split: "/" | last %}
+    {% assign length = path | size | minus: img.size %}
+    {% assign path = path | slice: 0, length %}
+{% endif %}
+
 <picture>
-    <source type="image/webp" srcset="/assets/webp/{{ img }}.webp" >
-    <img src="/assets/images/{{ path }}{{ img }}.{{ include.ext }}" alt="{{ include.alt }}" />
+    <!--image: {{include.img}}-->
+    <!--height: {{ include.height.size }} -->
+    <source type="image/webp" srcset="/assets/webp/{{ img }}.webp" />
+    {% if site.lazyimages == "enabled" %}
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/{{ path }}{{ img }}.{{ ext }}" alt="{{ include.alt }}" class="{{ include.class }} lazyimg"/>
+    {% else %}
+        <img src="/assets/images/{{ path }}{{ img }}.{{ ext }}" alt="{{ include.alt }}" class="{{ include.class }}"/>
+    {% endif %}
+
 </picture>
+
+{% assign path =  ""%}
+{% assign dot_ext =  ""%}
+{% assign ext =  ""%}
+{% assign img =  ""%}
+{% assign length =  ""%}

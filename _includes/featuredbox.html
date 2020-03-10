@@ -7,10 +7,8 @@
                 <div class="h-100">
                     <div class="wrapthumbnail">
                         <a href="{{ site.baseurl }}{{ post.url }}">
-                            {% if site.lazyimages == "enabled" %}
-                            <img class="featured-box-img-cover lazyimg"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
-                            {% else %}
-                            <img class="featured-box-img-cover" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
+                            {% if post.image %}
+                                {% include picture.html img=post.image alt=post.title class="featured-box-img-cover" %}
                             {% endif %}
                         </a>
                     </div>
@@ -35,11 +33,7 @@
                             <div class="wrapfooter">
                                 {% if post.author %}
                                     <span class="meta-footer-thumb">
-                                        {% if author.avatar %}
-                                            <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
-                                        {% else %}
-                                            <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
-                                        {% endif %}
+                                        {% include picture.html img=author.avatar alt=author.display_name class="author-thumb" %}
                                     </span>
                                     <span class="author-meta">
                                         <span class="post-name"><a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a></span><br/>

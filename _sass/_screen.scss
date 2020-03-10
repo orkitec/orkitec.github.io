@@ -13,6 +13,10 @@ body {
     background-color: #181818;
 }
 
+.footer-img {
+    height: 35px;
+}
+
 .card {
     background-color: #202020;
     border:1px solid #343434;
@@ -1079,11 +1083,9 @@ iframe {
 
 /** Lazy img **/
 .lazyimg {
-    display: block;
     border: 0 none;
     opacity: 1;
     transition: opacity .25s;
-    background: #f2f2f2;
     outline: 0 none;
 }
 
