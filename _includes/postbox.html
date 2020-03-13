@@ -6,9 +6,9 @@
         <div class="maxthumb">
             <a href="{{ site.baseurl }}{{ post.url }}">
                 {% if post.image %}
-                    {% include picture.html img=post.image alt=post.title class="img-fluid" %}
+                    {% include picture.html img=post.image alt=post.title class="img-fluid" thumb=true %}
                 {% endif %}
-            </a>
+            </a>
         </div>
         <div class="card-body">
             <h2 class="card-title"> 

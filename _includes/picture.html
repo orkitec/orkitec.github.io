@@ -1,6 +1,15 @@
-{% assign ext = include.img | split: "." | last %}
+{% if include.thumb %}
+    {% assign img = include.img |  append: "_thumb.jpg" %}
+{% else %}
+    {% assign img = include.img %}
+{% endif %}
+
+{% assign ext = img | split: "." | last %}
 {% assign dot_ext =  "." | append: ext %}
-{% assign img = include.img | remove: dot_ext | remove: '/assets/images/' | remove: 'assets/images/'%}
+
+{% assign length = img | size | minus: dot_ext.size %}
+
+{% assign img = img | slice: 0, length | remove: '/assets/images/' | remove: 'assets/images/'%}
 
 {% if img contains "/" %}
     {% assign path = img %}
