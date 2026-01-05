@@ -1,23 +1,49 @@
-var imagemin = require("imagemin"),    // The imagemin module.
-  webp = require("imagemin-webp");
+const { resolve, relative, dirname, basename } = require('path');
+const { readdir, mkdir } = require('fs').promises;
+const sharp = require('sharp');
+const fs = require('fs');
 
-(async () => {
-	const files = await imagemin(['assets/**/*.{jpg,jpeg,png}'], {
-		destination: 'assets/webp/',
-		plugins: [
-			webp({
-                quality: 65 // Quality setting from 0 to 100
-            }),
-            webp({
-                quality: 65 // Quality setting from 0 to 100
-            }),
-            webp({
-                lossless: true // Losslessly encode images
-            })
-		]
-	});
+async function getFiles(dir) {
+  const dirents = await readdir(dir, { withFileTypes: true });
+  const files = await Promise.all(dirents.map((dirent) => {
+    const res = resolve(dir, dirent.name);
+    return dirent.isDirectory() ? getFiles(res) : res;
+  }));
+  return Array.prototype.concat(...files);
+}
 
-	console.log(files);
-	//=> [{data: <Buffer 89 50 4e …>, destinationPath: 'build/images/foo.jpg'}, …]
-})();
+function endsWithAny(suffixes, string) {
+  return suffixes.some(function (suffix) {
+    return string.toLowerCase().endsWith(suffix);
+  });
+}
 
+async function convertToWebp(baseDir) {
+  const files = await getFiles(baseDir);
+  const outputDir = resolve(__dirname, '../assets/webp');
+
+  // Ensure output directory exists
+  if (!fs.existsSync(outputDir)) {
+    await mkdir(outputDir, { recursive: true });
+  }
+
+  for (const path of files) {
+    if (endsWithAny(['.png', '.jpg', '.jpeg'], path)) {
+      const relativePath = relative(baseDir, path);
+      const outputName = basename(relativePath).replace(/\.(png|jpe?g)$/i, '.webp');
+      const outputPath = resolve(outputDir, outputName);
+
+      console.log(path);
+
+      try {
+        await sharp(path)
+          .webp({ quality: 65 })
+          .toFile(outputPath);
+      } catch (err) {
+        console.error(`Error processing ${path}:`, err.message);
+      }
+    }
+  }
+}
+
+convertToWebp(resolve(__dirname, '../assets/images'));

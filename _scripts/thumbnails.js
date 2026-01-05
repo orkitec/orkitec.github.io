@@ -1,7 +1,7 @@
 const { resolve } = require('path');
 const { readdir } = require('fs').promises;
-const imageThumbnail = require('image-thumbnail');
-const fs = require('fs').promises;
+const sharp = require('sharp');
+const fs = require('fs');
 
 async function getFiles(dir) {
   const dirents = await readdir(dir, { withFileTypes: true });
@@ -13,36 +13,42 @@ async function getFiles(dir) {
 }
 
 function endsWithAny(suffixes, string) {
-    return suffixes.some(function (suffix) {
-        return string.endsWith(suffix);
-    });
+  return suffixes.some(function (suffix) {
+    return string.toLowerCase().endsWith(suffix);
+  });
 }
 
 async function resizeFiles(dirs) {
-  for(dir in dirs) {
-    let _dir = dirs[dir];
-    const files = await getFiles(_dir)
-      for(file in files) {
-          let path = files[file];
-          if(endsWithAny(['.png', '.jpg', 'jpeg'], path) && !path.endsWith('_thumb.jpg')) {
-            console.log(path)
-            
+  for (const dir of dirs) {
+    const files = await getFiles(dir);
+    for (const path of files) {
+      if (endsWithAny(['.png', '.jpg', '.jpeg'], path) && !path.endsWith('_thumb.jpg')) {
+        const thumbPath = path + '_thumb.jpg';
 
-            try {
-                let options = { percentage: 50, jpegOptions: 75 }
-                const thumbnail = await imageThumbnail(path, options);
-                fs.writeFile(path + "_thumb.jpg", thumbnail,  "binary").then(() => {
-                        
-                }).catch(er => {
-                    console.log(er);
-                  });
-            } catch (err) {
-                console.error(err);
-            }
-          }
+        // Skip if thumbnail already exists
+        if (fs.existsSync(thumbPath)) {
+          continue;
+        }
+
+        console.log(path);
+
+        try {
+          await sharp(path)
+            .resize({ width: null, height: null, withoutEnlargement: true })
+            .resize({ percentage: 50 })
+            .metadata()
+            .then(async (metadata) => {
+              await sharp(path)
+                .resize(Math.round(metadata.width / 2), Math.round(metadata.height / 2))
+                .jpeg({ quality: 75 })
+                .toFile(thumbPath);
+            });
+        } catch (err) {
+          console.error(`Error processing ${path}:`, err.message);
+        }
       }
     }
   }
+}
 
-//resizeFiles()
-resizeFiles([__dirname + "/../assets/images/blog", __dirname + "/../assets/images/portfolio"])
+resizeFiles([__dirname + '/../assets/images/blog', __dirname + '/../assets/images/portfolio']);
