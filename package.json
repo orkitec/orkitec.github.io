@@ -1,0 +1,14 @@
+{
+  "name": "orkitec-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "thumbnails": "node _scripts/thumbnails.js",
+    "webp": "node _scripts/webp.js"
+  },
+  "dependencies": {
+    "image-thumbnail": "^1.0.16",
+    "imagemin": "^7.0.1",
+    "imagemin-webp": "^5.1.0"
+  }
+}
